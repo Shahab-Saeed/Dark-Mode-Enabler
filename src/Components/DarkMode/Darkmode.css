@@ -1,0 +1,23 @@
+.mode span img {
+    cursor: pointer;
+    background-color: white;
+    border-radius: 30px;
+    padding: 2px;
+}
+
+body:has(.dark) {
+    background-color: black;
+}
+
+span:has(.dark) {
+    border: 1px solid white;
+    display: flex;
+    width: 70px;
+    padding: 2px 4px;
+    border-radius: 30px;
+    justify-content: flex-end;
+}
+
+.bright:hover{
+    transform: scale(1.05);
+}
